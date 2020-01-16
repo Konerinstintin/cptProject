@@ -1,7 +1,7 @@
 * {
     font-family: roboto;
     text-align: left;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
 li {
     list-style: none;
     margin-left: 5%;
+     font-size: 10px;
 }
 
 h1 {
