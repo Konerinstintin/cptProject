@@ -1,0 +1,23 @@
+* {
+    font-size: 25px;
+    font-family: roboto;
+    text-align: left;
+}
+
+body {
+    background-color: darkseagreen
+}
+
+li {
+    list-style: none;
+    margin-left: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+div {
+    text-align: center;
+}
