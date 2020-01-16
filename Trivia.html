@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Trivia Quiz</title>
+      <p id="qscore"></p>
+      <script src="trivia.js"></script>
+    <link rel="stylesheet" type="text/css" href="trivia.css">
+   </head>
+   <body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+    <div id="back">
+      <br>
+      <FORM name="view" id="center">  
+         Question: &nbsp;<input type="text" name="qnum" size="2" >&nbsp;<input type="button" name="go" value=" Next Question" onClick=main()>
+         <br>
+         <br>
+         Answer:&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer" onClick=submitAnswer()>
+         <br>
+         <br>
+         Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "qscore" name="qscore" size="2">
+         <br>
+         <br>
+         <TEXTAREA COLS=35 ROWS=9 id="question"  wrap="virtual"></TEXTAREA> 
+      </FORM>
+    </div>
+      <div>  
+       <audio id="audiotag1" src="error.wav" preload="auto"></audio>
+       <audio id="audiotag2" src="correct.wav" preload="auto"></audio>  
+       </div>
+   </body>
+</html>

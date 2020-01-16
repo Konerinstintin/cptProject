@@ -3,26 +3,33 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="Trivia.css">
+
 </head>
 
 <body>
-
-    <h1>Which of the following is an output device</h1>
-    <uL>
-        <li>
-            <p>A&#41; Fan</p>
-        </li>
-        <li>
-            <p>B&#41; Motherboard</p>
-        </li>
-        <li>
-            <p>C&#41; RAM</p>
-        </li>
-        <li>
-            <p>D&#41; Monitor</p>
-        </li>
-    </uL>
-
+    <table>
+        <tr>
+            <th>Question</th>
+            <th>Options</th>
+        </tr>
+        <tr>
+            <td>Which of the following is an output device?</td>
+            <td><a href="q2.html"><button>A&#41; Fan</button></a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="q2.html"><button>B&#41; CPU</button></a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="q2.html"><button>C&#41; RAM</button></a></td>
+        </tr>
+        <tr>
+            <td><button onclick="deleteItems()" class="center">Reset</button></td>
+            <td><a href="q2.html"><button onclick="clickCounter()">D&#41; Monitor</button></a></td>
+        </tr>
+    </table>
+    <script src="Trivia.js"></script>
 </body>
 
 </html>

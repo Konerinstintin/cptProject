@@ -1,0 +1,46 @@
+* {
+	font-size: 25px;
+	font-family: roboto;
+	text-align: left;
+}
+
+table,
+td,
+th {
+	width: 70%;
+	border: 3px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+	margin-left: 15%;
+	margin-right: 15%
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: deepskyblue;
+}
+
+button.center {
+	text-align: center;
+}
+
+div.center {
+	margin-left: 30%;
+	margin-right: 30%
+}
+
+button:hover {
+	background-color: cornflowerblue;
+	-webkit-transition-duration: 0.5;
+	transition-duration: .5s;
+}
+
+div {
+	-ms-flex-line-pack: center;
+	align-content: center;
+	margin-left: 40%;
+	margin-right: 40%;
+
+}
